@@ -35,7 +35,7 @@ All with 680-800 multi-scale augmentations
 | QueryInst | 36e | 45.60 | 40.6 |
 | DDQ | 12e | 47.2 | 41.5 |
 
-###LVIS Detection & Instance Segmentation
+### LVIS Detection & Instance Segmentation
 
 NOTE: QueryInst seems cannot adapt to the long-tailed dataset LVIS v1.0, the same phenomenon was observed on Sparse R-CNN.
 
@@ -46,7 +46,7 @@ NOTE: QueryInst seems cannot adapt to the long-tailed dataset LVIS v1.0, the sam
 | QueryInst | 36e | 22.5 | 22.8 |
 | DDQ | 12e | 29.6 | 26.6 |
 
-###CrowdHuman Detection
+### CrowdHuman Detection
 
 NOTE: * indicate multi-scale input size of range 480-800, otherwise it is normal 1x setting.
 
