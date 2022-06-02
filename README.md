@@ -1,7 +1,7 @@
-## [Group R-CNN for Point-based Weakly Semi-supervised Object Detection](https://arxiv.org/abs/2205.05920)
+## [What Are Expected Queries in End-to-End Object Detection?]()
 By Shilong Zhang*, Xinjiang Wang*, Jiaqi Wang, Jiangmiao Pang, Kai Chen
 
-#### DDQ greatly surpasses the current record on both object detection and instance segmentation tasks on different datasets(COCO,  LVIS V1.0, CrowdHuman) with less epochs.
+#### Our method DDQ greatly surpasses the current record on both object detection and instance segmentation tasks on different datasets(COCO,  LVIS V1.0, CrowdHuman) with less epochs.
 
 ### Abstract:
 End-to-end object detection is rapidly progressed after the emergence of DETR.
