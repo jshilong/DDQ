@@ -102,10 +102,12 @@ sh tools/test.sh  projects/configs/ddq_fcn/ddq_fcn_r50_1x.py  path_to_checkpoint
 #### Results & Checkpoints
 We find that the performance is unstable and may fluctuate by about 0.2 mAP.
 
-|      Model      | Backbone | Lr schd | Augmentation |     box AP(val)     | Model | log |
-|:---------------:|:--------:|:-------:|:------------:|:-------------------:|:------: |:------: |
-|     DDQ FCN     | R-50 |   12e   |    Normal    |    41.5             | [ckpt](https://drive.google.com/file/d/1R0cIA9HP3nysCN5QgNr0Vik4Yru5LsAb/view?usp=share_link) | [log](https://drive.google.com/file/d/1PU2sPwthtFWfGeAC0CoRbMUQWYYEHqBJ/view?usp=share_link) |
-|    DDQ R-CNN    | R-50 |   12e   |    Normal    |        44.6         | [ckpt](https://drive.google.com/file/d/17WbzELx0j2XAlvgN6uNewPqq21Sk1dDW/view?usp=share_link) | [log](https://drive.google.com/file/d/1PrjRzU890LIL3cYSukLBmoEq6q8kPLPq/view?usp=share_link) |
+|      Model      | Backbone | Lr schd | Augmentation | box AP(val) | Model |                                                                                                 log                                                                                                 |
+|:---------------:|:--------:|:-------:|:------------:|:-----------:|:------: |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|     DDQ FCN     | R-50 |   12e   |    Normal    |    41.5     | [ckpt](https://drive.google.com/file/d/1R0cIA9HP3nysCN5QgNr0Vik4Yru5LsAb/view?usp=share_link) |[log](https://drive.google.com/file/d/1PU2sPwthtFWfGeAC0CoRbMUQWYYEHqBJ/view?usp=share_link)|
+|     DDQ FCN     | R-50 |   36e   |     DETR     |    44.8     | [ckpt](https://drive.google.com/file/d/1ePfznTa1Q3HSPVaZNQg4ega2QFKpmS7x/view?usp=share_link) |[log](https://drive.google.com/file/d/1kvRx94YZy8Fo7cYipwBCXEKL5hQdxSgG/view?usp=share_link)|
+|    DDQ R-CNN    | R-50 |   12e   |    Normal    |    44.6     | [ckpt](https://drive.google.com/file/d/17WbzELx0j2XAlvgN6uNewPqq21Sk1dDW/view?usp=share_link) |[log](https://drive.google.com/file/d/1PrjRzU890LIL3cYSukLBmoEq6q8kPLPq/view?usp=share_link)|
+|    DDQ R-CNN    | R-50 |   36e   |     DETR     |    48.1     | [ckpt](https://drive.google.com/file/d/1KsIzoZPGcFFifNQLrtWoT5UZIl4ee63E/view?usp=share_link) |[log](https://drive.google.com/file/d/1EVtyJDzpV-HwEtLRs98CgQBB59logGkW/view?usp=share_link)|
 
 
 ##### Please ```git checkout ddq_detr``` and follow the install instruction to use following checkpoint
