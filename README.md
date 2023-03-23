@@ -1,6 +1,6 @@
 
-## [Dense Distinct Query for End-to-End Object Detection]() (CVPR2023)
-By Shilong Zhang*, Wang xinjiang*, Jiaqi Wang, Jiangmiao Pang, Chengqi Lyu, Wenwei Zhang, Ping Luo, Kai Chen
+## [Dense Distinct Query for End-to-End Object Detection](https://arxiv.org/abs/2303.12776) (CVPR2023)
+By Shilong Zhang*, Xinjiang Wang*, Jiaqi Wang, Jiangmiao Pang, Chengqi Lyu, Wenwei Zhang, Ping Luo, Kai Chen
 
 
 ### Updates
