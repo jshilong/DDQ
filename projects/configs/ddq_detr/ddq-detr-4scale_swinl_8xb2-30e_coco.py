@@ -3,7 +3,7 @@ _base_ = [
 ]
 custom_imports = dict(imports=['projects'], allow_failed_imports=False)
 
-pretrained = '/mnt/petrelfs/share_data/zhangshilong/swin_large_patch4_window12_384_22k.pth'  # noqa
+pretrained = 'https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth'  # noqa
 model = dict(
     type='DDQDETR',
     dqs_cfg=dict(type='nms', iou_threshold=0.8),
