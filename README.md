@@ -117,3 +117,16 @@ We find that the performance is unstable and may fluctuate by about 0.2 mAP.
 | DDQ DETR-4scale | R-50 |   12e   |     DETR     |        51.3         | [ckpt](https://drive.google.com/file/d/1V5Uqf6Q3FcCyzj--XxrbCKLm3mmGyJ0h/view?usp=share_link) | [log](https://drive.google.com/file/d/1wHbHxDVG8FiNHLwTUAV_tH-7WYIoBxSr/view?usp=share_link) |
 | DDQ DETR-5scale | R-50 |   12e   |     DETR     |        52.1         | [ckpt](https://drive.google.com/file/d/1AZLrtj4v4puj9Un7yYqL8LVInIGQYcht/view?usp=share_link) | [log](https://drive.google.com/file/d/1FVmvkL0Q_G_DjqH8itpDx89CWyaplMnc/view?usp=share_link) |
 | DDQ DETR-4scale |  Swin-L  |   30e   |     DETR     |        58.7         | [ckpt](https://drive.google.com/file/d/1kmLt9K59ZRfXwU1Ip6-nYjBQ7V-w2_LI/view?usp=share_link) | [log](https://drive.google.com/file/d/1hQtplhMQITDIsI7oigy36G06NARq-UCx/view?usp=share_link) |
+
+### Citations
+Please cite our paper in your publications if it helps your research:
+```
+@InProceedings{Zhang_2023_CVPR,
+    author    = {Zhang, Shilong and Wang, Xinjiang and Wang, Jiaqi and Pang, Jiangmiao and Lyu, Chengqi and Zhang, Wenwei and Luo, Ping and Chen, Kai},
+    title     = {Dense Distinct Query for End-to-End Object Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {7329-7338}
+}
+```
